@@ -4,6 +4,7 @@ import blur from '../assets/blur.png'
 import dados from '../assets/dados.png'
 import edificio from '../assets/edificio.jpg'
 import reunion from '../assets/reunion.png'
+import energy from '../assets/energy.png'
 
 const Inicio = () => {
   return (
@@ -46,6 +47,9 @@ const Inicio = () => {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+      <div  className="img-energy">
+      <img src={energy} alt=""/>
       </div>
     </div>
   );

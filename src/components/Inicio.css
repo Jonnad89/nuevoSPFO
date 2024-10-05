@@ -18,4 +18,7 @@
   .carousel-inner {
     position: relative; /* Asegura que el texto absoluto se coloque dentro del contenedor del carrusel */
   }
-  
+  .img-energy{
+    display: flex;
+    justify-content: center;
+  }

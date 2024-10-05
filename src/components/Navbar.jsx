@@ -3,13 +3,15 @@ import "./Navbar.css";
 import {Link} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // Esto incluye Popper.js
-
+import logo from '../assets/LOGO.png'
 const Navbar = () => {
   return (
     <>
              <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container py-2">
-                    <Link className="navbar-brand" to="/">SPFO</Link>
+                    <Link className="navbar-brand" to="/inicio">
+                    <img src={logo} alt="" className="logo-nav" />
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
