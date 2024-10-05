@@ -1,0 +1,11 @@
+  
+  .nav_ul li {
+    padding: 0 0.6rem;
+  }
+  
+  .nav_ul a {
+    font-size: 1.05rem;
+    color: #000 !important;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
