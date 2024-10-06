@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Esto incluye Popper.js
 import logo from "../assets/LOGO.png";
+
 const Navbar = () => {
   return (
     <>
@@ -23,7 +24,6 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          {/* means */}
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto nav_ul align-items-center">
               <li className="nav-item">
@@ -44,39 +44,39 @@ const Navbar = () => {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/vision-y-desarrollo">
                       Visión Y Desarrollo
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/asi-operamos">
                       Así Operamos
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/requerimientos">
                       Requerimientos
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/diligencia">
                       Debida Diligencia
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/productos">
                       Productos SPFO
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/logistica">
                       Logística
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/">
+                    <Link className="dropdown-item" to="/gestores">
                       Gestores De Capital
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -90,21 +90,8 @@ const Navbar = () => {
                   Contacto
                 </Link>
               </li>
-              {/* <li className="nav-item">
-                                <Link className="nav-link" to="/contact">Contact Us</Link>
-                            </li> */}
-
-              {/* <div className="mx-3">
-                                <button type="button" className="btn1 mx-2">Login</button>
-                                <button type="button" className="btn2 mx-2">Sign Up</button>
-                            </div> */}
-              {/* <div className="form-check form-switch">
-                                <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
-                                <label className="form-check-label" for="flexSwitchCheckDefault">Dark Mode</label>
-                            </div> */}
             </ul>
           </div>
-          {/* end */}
         </div>
       </nav>
     </>

@@ -1,3 +1,10 @@
+.car-ini{
+    width: 1200px;
+    margin-left: 80px;
+    align-items: center;
+    flex-direction: column;
+}
+
 .carousel-text {
     position: absolute;
     top: 89%;

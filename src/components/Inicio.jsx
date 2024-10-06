@@ -9,6 +9,7 @@ import energy from '../assets/energy.png'
 const Inicio = () => {
   return (
     <div>
+        <div className="car-ini">
       <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade"
@@ -47,6 +48,7 @@ const Inicio = () => {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+        </div>
       </div>
       <div  className="img-energy">
       <img src={energy} alt=""/>

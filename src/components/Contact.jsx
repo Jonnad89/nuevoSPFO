@@ -6,7 +6,7 @@ import reunion from "../assets/reunion.png";
 import './Contact.css'
 const Contact = () => {
   return (
-    <div>
+    <div className="car-con">
       <div
         id="carouselExampleFade"
         class="carousel slide carousel-fade"
