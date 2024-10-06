@@ -10,7 +10,41 @@
     letter-spacing: 0.5px;
   }
 
-  .logo-nav{
-    width: 110px;
-    height: 75px;
+  .nav_ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Alinea los links hacia la izquierda, junto al logo */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-nav {
+    width: 170px;
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  }
+  
+ 
+  .container {
+    display: flex;
+    justify-content: space-between; /* El logo a la izquierda y los items a la derecha */
+    align-items: center; /* Alinea verticalmente los elementos */
+  }
+  
+
+  #navbarNav {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los items en el centro */
+    justify-content: flex-start; /* Mantiene los elementos alineados al principio */
+    gap: 1rem; /* Añade un pequeño espacio entre los items */
+    margin-left: auto; /* Empuja la navbar hacia la derecha del logo */
+  }
+  .navbar-nav{
+    position: absolute;
+    margin-left: 200px;
   }

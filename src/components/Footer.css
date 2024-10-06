@@ -3,8 +3,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     background: #01193c;
+    height: 80px;
 }
 
 .container-footer ul{
@@ -12,6 +13,14 @@
     flex-direction: row;
     align-items: center;
     gap: 3rem;
+}
+
+.container-footer ul li {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    width: 50px;
+    height: 20px;
 }
 
 .nav_ul li {
@@ -94,16 +103,24 @@
   .ft-3 i {
     padding-right: 0.5rem;
   }
-  
-  .Last-footer {
-    background: #01193c;
-    text-align: center;
-    padding: 1rem 0;
-    color: white;
+
+  .Footer ul li .fa-icon {
+    font-size: 24px;
+    color: #fff; /* O el color que prefieras */
   }
-  
-  .Last-footer p {
-    margin-bottom: 0;
-    font-size: 1.2rem;
-    font-weight: 700;
-  }
+
+  .footer-icons i, .container-footer ul li .fa-icon {
+    font-size: 24px; /* Tamaño de los íconos */
+    color: #fff; /* Color de los íconos */
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-icons i:hover, .container-footer ul li .fa-icon:hover {
+    color: #f60838; /* Color al pasar el ratón */
+    cursor: pointer;
+}
+
+.img-logo{
+width: 80px;
+height: 60px;
+}

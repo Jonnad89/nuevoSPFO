@@ -1,5 +1,8 @@
 import React from 'react'
 import './Footer.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';  
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import logo from '../assets/LOGO.png'
 const Footer = () => {
     return (
         <>
@@ -10,14 +13,10 @@ const Footer = () => {
                             {/* <h5>Quick Links</h5> */}
                             <ul>
                                 <li className="nav-item">
-                                    <a className="" href="/">Sobre SPFO</a>
+                                <FontAwesomeIcon icon={faFacebook} className='fa-icon'/>
+                                <FontAwesomeIcon icon={faInstagram} className='fa-icon'/>
                                 </li>
-                                <li className="nav-item">
-                                    <a className="" href="/">Administración</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="" href="/">Contacto</a>
-                                </li>
+                              
                                
                             </ul>
                         </div>
@@ -25,10 +24,10 @@ const Footer = () => {
                             {/* <h3><span>WALEED</span>CODES</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ea quo ex ullam laboriosam magni totam, facere eos iure voluptate.</p>
                             <div className="footer-icons">
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-linkedin-in"></i>
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
                             </div> */}
                         </div>
                         
@@ -37,12 +36,13 @@ const Footer = () => {
                             <p><i class="fa-solid fa-phone-volume"></i> +92 3121324083</p>
                             <p><i class="fa-solid fa-envelope"></i> waleedishfaq1515@gmail.com</p>
                             <p><i class="fa-solid fa-paper-plane"></i> Abbottabad, Pakistan.</p>
-                        </div> */}
+                            </div> */}
                     </div>
                 </div>
             </div>
             <div className='Last-footer'>
                 
+                            <img src={logo} alt="" className='img-logo'/>
                 <p>Desarrollado Por FullDev</p>
             </div>
         </>
