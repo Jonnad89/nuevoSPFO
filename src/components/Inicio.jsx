@@ -1,18 +1,22 @@
-import React from "react";
+//import React from "react";
 import "./Inicio.css";
-import blur from '../assets/blur.png'
-import dados from '../assets/dados.png'
-import edificio from '../assets/edificio.jpg'
-import reunion from '../assets/reunion.png'
-import energy from '../assets/energy.png'
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img1.jpg";
+import img3 from "../assets/img1.jpg";
+import img4 from "../assets/img1.jpg";
+import img5 from "../assets/img1.jpg";
 import Carousel from "./Carousel";
 
 const Inicio = () => {
   return (
     <div>
       <Carousel />
-      <div  className="img-energy">
-      <img src={energy} alt=""/>
+      <div className="img-energy">
+        <img src={img1} alt="" />
+        <img src={img2} alt="" />
+        <img src={img3} alt="" />
+        <img src={img4} alt="" />
+        <img src={img5} alt="" />
       </div>
     </div>
   );
