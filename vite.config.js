@@ -7,5 +7,10 @@ export default defineConfig({
   server: {
     host: true,  // permite que el servidor escuche en la red local
     port: 3000,  // puerto que quieres utilizar
+    build: {
+      rollupOptions: {
+        external: ["@fortawesome/free-brands-svg-icons"]
+      }
+    }
   },
 })
