@@ -25,7 +25,7 @@ function App() {
         <Navbar />
         <Routes>
           {/* Ruta para la página de inicio */}
-          <Route path='/' element={<Inicio />} />
+          <Route path='/' element={<><Inicio /><InicioParte2 /></>} />
           {/* Otras rutas */}
           <Route path='/inicio' element={<><Inicio /><InicioParte2 /></>} />
           <Route path='/about' element={<About />} />
