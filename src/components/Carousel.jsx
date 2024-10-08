@@ -1,8 +1,9 @@
 import React from 'react';
-import blur from "../assets/blur.png";
-import dados from "../assets/dados.png";
-import edificio from "../assets/edificio.jpg";
-import reunion from "../assets/reunion.png"
+import img1 from "../assets/img1.jpg";
+import img2 from "../assets/img2.jpg";
+import img3 from "../assets/img3.jpg";
+import img4 from "../assets/img4.jpg";
+import video1 from "../assets/barco.mp4";
 const Carousel = () => {
     return (
         <div className="car-admi">
@@ -14,16 +15,19 @@ const Carousel = () => {
           <div className="carousel-inner">
             <p className="carousel-text">Alianza de calidad, seguridad y éxito</p>
             <div className="carousel-item active">
-              <img src={blur} className="d-block w-100" alt="..." />
+              <img src={img1} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={dados} className="d-block w-100" alt="..." />
+              <img src={img2} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={edificio} className="d-block w-100" alt="..." />
+              <img src={img3} className="d-block w-100" alt="..." />
             </div>
             <div className="carousel-item">
-              <img src={reunion} className="d-block w-100" alt="..." />
+              <img src={img4} className="d-block w-100" alt="..." />
+            </div>
+            <div className="carousel-item">
+              <video src={video1} autoPlay></video>
             </div>
           </div>
           <button
