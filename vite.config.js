@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
@@ -9,8 +9,10 @@ export default defineConfig({
     port: 3000,  // puerto que quieres utilizar
     build: {
       rollupOptions: {
-        external: ["@fortawesome/free-brands-svg-icons"]
+        external: {FontAwesomeIcon}
       }
     }
   },
 })
+
+// ["@fortawesome/free-brands-svg-icons"]
