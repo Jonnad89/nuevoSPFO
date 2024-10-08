@@ -24,6 +24,10 @@
   
   .carousel-inner {
     position: relative; /* Asegura que el texto absoluto se coloque dentro del contenedor del carrusel */
+    height: 500px;  
+  }
+  .carousel-inner > img{
+    width: 80%;
   }
   .img-energy{
     display: flex;
