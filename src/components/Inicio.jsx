@@ -2,7 +2,6 @@
 import "./Inicio.css";
 import mujer from "../assets/mujer.webp";
 import img2 from "../assets/img2.jpg";
-//import img5 from "../assets/img5.png";
 import Carousel from "./Carousel";
 
 const Inicio = () => {

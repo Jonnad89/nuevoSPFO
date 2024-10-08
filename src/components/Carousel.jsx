@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
@@ -9,13 +9,13 @@ const Carousel = () => {
     <div className="car-admi">
       <div
         id="carouselExampleFade"
-        className="carousel slide carousel-fade"
+        className="carouselSlide"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
           <p className="carousel-text">ENERGY FOR YOUR LIFE</p>
           <div className="img-w">
-            <div className="carousel-item active">
+            <div className="carousel-item">
               <img src={img1} className="fotoCarrusel" alt="..." />
             </div>
             <div className="carousel-item">
