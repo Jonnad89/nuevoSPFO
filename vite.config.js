@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import "@fortawesome/free-brands-svg-icons"
+// import "@fortawesome/free-brands-svg-icons"
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
