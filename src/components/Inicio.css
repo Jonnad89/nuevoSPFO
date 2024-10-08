@@ -30,7 +30,22 @@
   .carousel-inner .active{
     
   }
-  .img-energy{
-    display: flex;
+  .img1{
+    display: inline-flex;
     justify-content: center;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 60%;
+    left: -5%;
   }
+  .img2{
+    display: inline-flex;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 250%;
+    right: -60%;
+  }
+  
