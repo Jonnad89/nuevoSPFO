@@ -10,11 +10,14 @@ const Inicio = () => {
     <div>
       <Carousel />
       <div className="img-energy">
-        <div className="img2">
-          <img src={img2} alt="" />
-        </div>
         <div className="img1">
           <img src={img1} alt="" />
+        </div>
+      </div>
+
+      <div>
+        <div className="img2">
+          <img src={img2} alt="" />
         </div>
       </div>
     </div>

@@ -25,8 +25,8 @@
     width: 400px;
     height: 400px;
     position: relative;
-    top: 60%;
-    left: -5%;
+    margin-top: 10%;
+    left: 20%;
   }
   .img2{
     display: inline-flex;
@@ -34,8 +34,8 @@
     width: 400px;
     height: 400px;
     position: relative;
-    /* top: 280%; */
-    right: -50%;
+    margin-top: 30%;
+    right: -60%;
   }
 
   /* asdasd */
