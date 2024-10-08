@@ -14,6 +14,7 @@ const Carousel = () => {
         >
           <div className="carousel-inner">
             <p className="carousel-text">Alianza de calidad, seguridad y éxito</p>
+            <div className='img-w'>
             <div className="carousel-item active">
               <img src={img1} className="d-block w-100" alt="..." />
             </div>
@@ -28,6 +29,7 @@ const Carousel = () => {
             </div>
             <div className="carousel-item">
               <video src={video1} autoPlay></video>
+            </div>
             </div>
           </div>
           <button
